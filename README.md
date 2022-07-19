@@ -12,9 +12,9 @@ Working:
 5. app.js for running the project
 
 The app demonstrates how we can create a coupon with Name, Description, Expiry Date and location coordinates details. 
-Once database is created with different coupons we can fetch the coupon with the help of location(latitude &longitude) 
+Once database is created with different coupons, we can fetch the coupon with the help of location(latitude &longitude) 
 
-##To run the application 
+## To run the application 
 npm install
 npm start
 
