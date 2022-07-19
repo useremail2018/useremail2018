@@ -14,14 +14,16 @@ Working:
 The app demonstrates how we can create a coupon with Name, Description, Expiry Date and location coordinates details. 
 Once database is created with different coupons we can fetch the coupon with the help of location(latitude &longitude) 
 
-To run the application 
+##To run the application 
 npm install
 npm start
 
-Api can be verified through postman 
-To search coupon from database http://localhost:3000/search-coupon?cords=latitude, longitude
-To insert coupon into database http://localhost:3000/add-coupon
-Body: {
+## Api can be verified through postman 
+
+## To insert coupon into database
+Use Postman->Post-> http://localhost:3000/add-coupon
+
+Insert in Body: {
     "name": "string",
     "description": "string",
     "location" : {
@@ -30,4 +32,12 @@ Body: {
     }
     
 }
+
+##To search coupon from database 
+Use Postman-> Get -> http://localhost:3000/search-coupon?cords=latitude, longitude
+
+
+
+
+
 
