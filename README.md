@@ -33,7 +33,7 @@ Insert in Body: {
     
 }
 
-##To search coupon from database 
+## To search coupon from database 
 Use Postman-> Get -> http://localhost:3000/search-coupon?cords=latitude, longitude
 
 
