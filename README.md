@@ -1,8 +1,8 @@
 - 👋 Hi, I’m Ashish Kumar Bharti
 
 
-Project
-Coupon code creation in database and fetch through location coordinates
+## Project
+Coupon code creation in database and fetch coupon through location coordinates
 
 Working:
 1. consists of Routes for creating GET and POST route
